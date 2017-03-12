@@ -9,6 +9,7 @@ package organizebook;
  *
  * @author Y-V-D
  */
-public class eAudioBook {
-    
+public interface eAudioBook {
+        public int getNumberOfTracks();
+
 }

@@ -9,13 +9,31 @@ package organizebook;
  *
  * @author Y-V-D
  */
-public class Book {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public class Book { 
     
+        private String title, author;
+        private int year; 
+        
+        public Book(String title, String author, int year){
+             this.title = title;
+             this.author = author;
+             this.year = year;
+        }
+        public String getTitle(){
+               return title;
+        }
+
+        public String getAuthor(){
+                return author;
+        }
+
+        public int getYearOfPublication(){
+                return year;
+        }
+
+        public void print(){
+                System.out.println("Title: " + title);
+                System.out.println("Author: " + author);
+                System.out.println("Year of publication: " + year);
+        } 
 }

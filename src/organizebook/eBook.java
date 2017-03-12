@@ -9,6 +9,7 @@ package organizebook;
  *
  * @author Y-V-D
  */
-public class eBook {
-    
+public interface eBook {
+        public String getSize();
+
 }

@@ -9,6 +9,7 @@ package organizebook;
  *
  * @author Y-V-D
  */
-public class PrintedBook {
-    
+public interface PrintedBook {
+    public String getDimensions();
+    public String getWeight();
 }
